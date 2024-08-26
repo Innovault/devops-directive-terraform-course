@@ -11,7 +11,7 @@ provider "aws" {
   region = "eu-west-2"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "testweb" {
   ami           = "ami-01ec84b284795cbc7" # Ubuntu Server 24.04 LTS // eu-west-2
   instance_type = "t2.micro"
 }
